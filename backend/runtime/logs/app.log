@@ -1,0 +1,533 @@
+2017-02-24 10:53:09 [127.0.0.1][-][7okd7uf4no7csbj53254ojind2][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request: utisci/login in /home/mmauzerr/workspace/www/public_html/tamara_upgrade/advanced/vendor/yiisoft/yii2/base/Controller.php:127
+Stack trace:
+#0 /home/mmauzerr/workspace/www/public_html/tamara_upgrade/advanced/vendor/yiisoft/yii2/base/Module.php(523): yii\base\Controller->runAction('login', Array)
+#1 /home/mmauzerr/workspace/www/public_html/tamara_upgrade/advanced/vendor/yiisoft/yii2/web/Application.php(102): yii\base\Module->runAction('utisci/login', Array)
+#2 /home/mmauzerr/workspace/www/public_html/tamara_upgrade/advanced/vendor/yiisoft/yii2/base/Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#3 /home/mmauzerr/workspace/www/public_html/tamara_upgrade/advanced/backend/web/index.php(17): yii\base\Application->run()
+#4 {main}
+
+Next yii\web\NotFoundHttpException: Page not found. in /home/mmauzerr/workspace/www/public_html/tamara_upgrade/advanced/vendor/yiisoft/yii2/web/Application.php:114
+Stack trace:
+#0 /home/mmauzerr/workspace/www/public_html/tamara_upgrade/advanced/vendor/yiisoft/yii2/base/Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 /home/mmauzerr/workspace/www/public_html/tamara_upgrade/advanced/backend/web/index.php(17): yii\base\Application->run()
+#2 {main}
+2017-02-24 10:53:09 [127.0.0.1][-][7okd7uf4no7csbj53254ojind2][info][application] $_COOKIE = [
+    'advanced-frontend' => '9084d5u2rjeisd4v6adfnspsa2'
+    '_csrf-frontend' => '9e842be2ad729f5f4923d1b47fc6dbabf04986ed41df3f4e74b711049d29af85a:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"9xWIDQaiHJEUGXIS6Gv6ekyiqYCavaMK\";}'
+    'advanced-backend' => '7okd7uf4no7csbj53254ojind2'
+    '_csrf-backend' => '9d7fa94712e49ae7707219a10b62baa16c088e84fa8a0530aca70050104aad48a:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"snHYvOQMJPyWN2i6RNB5nhiCd4V769Rr\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => '/tamara_upgrade/advanced/backend/web/site/index'
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => '127.0.0.1'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.8,sr;q=0.6'
+    'HTTP_COOKIE' => 'advanced-frontend=9084d5u2rjeisd4v6adfnspsa2; _csrf-frontend=9e842be2ad729f5f4923d1b47fc6dbabf04986ed41df3f4e74b711049d29af85a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%229xWIDQaiHJEUGXIS6Gv6ekyiqYCavaMK%22%3B%7D; advanced-backend=7okd7uf4no7csbj53254ojind2; _csrf-backend=9d7fa94712e49ae7707219a10b62baa16c088e84fa8a0530aca70050104aad48a%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22snHYvOQMJPyWN2i6RNB5nhiCd4V769Rr%22%3B%7D'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.18 (Ubuntu) Server at 127.0.0.1 Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Ubuntu)'
+    'SERVER_NAME' => '127.0.0.1'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/home/mmauzerr/workspace/www/public_html'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/home/mmauzerr/workspace/www/public_html'
+    'SERVER_ADMIN' => 'webmaster@localhost'
+    'SCRIPT_FILENAME' => '/home/mmauzerr/workspace/www/public_html/tamara_upgrade/advanced/backend/web/index.php'
+    'REMOTE_PORT' => '41514'
+    'REDIRECT_URL' => '/tamara_upgrade/advanced/backend/web/utisci/login'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/tamara_upgrade/advanced/backend/web/utisci/login'
+    'SCRIPT_NAME' => '/tamara_upgrade/advanced/backend/web/index.php'
+    'PHP_SELF' => '/tamara_upgrade/advanced/backend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1487933589.08
+    'REQUEST_TIME' => 1487933589
+]
+2017-02-24 10:53:20 [127.0.0.1][-][7okd7uf4no7csbj53254ojind2][error][yii\web\HttpException:400] yii\web\BadRequestHttpException: Missing required parameters: id in /home/mmauzerr/workspace/www/public_html/tamara_upgrade/advanced/vendor/yiisoft/yii2/web/Controller.php:149
+Stack trace:
+#0 /home/mmauzerr/workspace/www/public_html/tamara_upgrade/advanced/vendor/yiisoft/yii2/base/InlineAction.php(51): yii\web\Controller->bindActionParams(Object(yii\base\InlineAction), Array)
+#1 /home/mmauzerr/workspace/www/public_html/tamara_upgrade/advanced/vendor/yiisoft/yii2/base/Controller.php(156): yii\base\InlineAction->runWithParams(Array)
+#2 /home/mmauzerr/workspace/www/public_html/tamara_upgrade/advanced/vendor/yiisoft/yii2/base/Module.php(523): yii\base\Controller->runAction('view', Array)
+#3 /home/mmauzerr/workspace/www/public_html/tamara_upgrade/advanced/vendor/yiisoft/yii2/web/Application.php(102): yii\base\Module->runAction('utisci/view', Array)
+#4 /home/mmauzerr/workspace/www/public_html/tamara_upgrade/advanced/vendor/yiisoft/yii2/base/Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#5 /home/mmauzerr/workspace/www/public_html/tamara_upgrade/advanced/backend/web/index.php(17): yii\base\Application->run()
+#6 {main}
+2017-02-24 10:53:20 [127.0.0.1][-][7okd7uf4no7csbj53254ojind2][info][application] $_COOKIE = [
+    'advanced-frontend' => '9084d5u2rjeisd4v6adfnspsa2'
+    '_csrf-frontend' => '9e842be2ad729f5f4923d1b47fc6dbabf04986ed41df3f4e74b711049d29af85a:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"9xWIDQaiHJEUGXIS6Gv6ekyiqYCavaMK\";}'
+    'advanced-backend' => '7okd7uf4no7csbj53254ojind2'
+    '_csrf-backend' => '9d7fa94712e49ae7707219a10b62baa16c088e84fa8a0530aca70050104aad48a:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"snHYvOQMJPyWN2i6RNB5nhiCd4V769Rr\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => '/tamara_upgrade/advanced/backend/web/site/index'
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => '127.0.0.1'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.8,sr;q=0.6'
+    'HTTP_COOKIE' => 'advanced-frontend=9084d5u2rjeisd4v6adfnspsa2; _csrf-frontend=9e842be2ad729f5f4923d1b47fc6dbabf04986ed41df3f4e74b711049d29af85a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%229xWIDQaiHJEUGXIS6Gv6ekyiqYCavaMK%22%3B%7D; advanced-backend=7okd7uf4no7csbj53254ojind2; _csrf-backend=9d7fa94712e49ae7707219a10b62baa16c088e84fa8a0530aca70050104aad48a%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22snHYvOQMJPyWN2i6RNB5nhiCd4V769Rr%22%3B%7D'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.18 (Ubuntu) Server at 127.0.0.1 Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Ubuntu)'
+    'SERVER_NAME' => '127.0.0.1'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/home/mmauzerr/workspace/www/public_html'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/home/mmauzerr/workspace/www/public_html'
+    'SERVER_ADMIN' => 'webmaster@localhost'
+    'SCRIPT_FILENAME' => '/home/mmauzerr/workspace/www/public_html/tamara_upgrade/advanced/backend/web/index.php'
+    'REMOTE_PORT' => '41528'
+    'REDIRECT_URL' => '/tamara_upgrade/advanced/backend/web/utisci/view'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/tamara_upgrade/advanced/backend/web/utisci/view'
+    'SCRIPT_NAME' => '/tamara_upgrade/advanced/backend/web/index.php'
+    'PHP_SELF' => '/tamara_upgrade/advanced/backend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1487933600.608
+    'REQUEST_TIME' => 1487933600
+]
+2017-02-24 11:24:01 [127.0.0.1][-][7okd7uf4no7csbj53254ojind2][error][yii\web\HttpException:400] yii\web\BadRequestHttpException: Missing required parameters: id in /home/mmauzerr/workspace/www/public_html/tamara_upgrade/advanced/vendor/yiisoft/yii2/web/Controller.php:149
+Stack trace:
+#0 /home/mmauzerr/workspace/www/public_html/tamara_upgrade/advanced/vendor/yiisoft/yii2/base/InlineAction.php(51): yii\web\Controller->bindActionParams(Object(yii\base\InlineAction), Array)
+#1 /home/mmauzerr/workspace/www/public_html/tamara_upgrade/advanced/vendor/yiisoft/yii2/base/Controller.php(156): yii\base\InlineAction->runWithParams(Array)
+#2 /home/mmauzerr/workspace/www/public_html/tamara_upgrade/advanced/vendor/yiisoft/yii2/base/Module.php(523): yii\base\Controller->runAction('view', Array)
+#3 /home/mmauzerr/workspace/www/public_html/tamara_upgrade/advanced/vendor/yiisoft/yii2/web/Application.php(102): yii\base\Module->runAction('utisci/view', Array)
+#4 /home/mmauzerr/workspace/www/public_html/tamara_upgrade/advanced/vendor/yiisoft/yii2/base/Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#5 /home/mmauzerr/workspace/www/public_html/tamara_upgrade/advanced/backend/web/index.php(17): yii\base\Application->run()
+#6 {main}
+2017-02-24 11:24:01 [127.0.0.1][-][7okd7uf4no7csbj53254ojind2][info][application] $_COOKIE = [
+    'advanced-frontend' => '9084d5u2rjeisd4v6adfnspsa2'
+    '_csrf-frontend' => '9e842be2ad729f5f4923d1b47fc6dbabf04986ed41df3f4e74b711049d29af85a:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"9xWIDQaiHJEUGXIS6Gv6ekyiqYCavaMK\";}'
+    'advanced-backend' => '7okd7uf4no7csbj53254ojind2'
+    '_csrf-backend' => '9d7fa94712e49ae7707219a10b62baa16c088e84fa8a0530aca70050104aad48a:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"snHYvOQMJPyWN2i6RNB5nhiCd4V769Rr\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => '/tamara_upgrade/advanced/backend/web/'
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => '127.0.0.1'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.8,sr;q=0.6'
+    'HTTP_COOKIE' => 'advanced-frontend=9084d5u2rjeisd4v6adfnspsa2; _csrf-frontend=9e842be2ad729f5f4923d1b47fc6dbabf04986ed41df3f4e74b711049d29af85a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%229xWIDQaiHJEUGXIS6Gv6ekyiqYCavaMK%22%3B%7D; advanced-backend=7okd7uf4no7csbj53254ojind2; _csrf-backend=9d7fa94712e49ae7707219a10b62baa16c088e84fa8a0530aca70050104aad48a%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22snHYvOQMJPyWN2i6RNB5nhiCd4V769Rr%22%3B%7D'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.18 (Ubuntu) Server at 127.0.0.1 Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Ubuntu)'
+    'SERVER_NAME' => '127.0.0.1'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/home/mmauzerr/workspace/www/public_html'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/home/mmauzerr/workspace/www/public_html'
+    'SERVER_ADMIN' => 'webmaster@localhost'
+    'SCRIPT_FILENAME' => '/home/mmauzerr/workspace/www/public_html/tamara_upgrade/advanced/backend/web/index.php'
+    'REMOTE_PORT' => '41872'
+    'REDIRECT_URL' => '/tamara_upgrade/advanced/backend/web/utisci/view'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/tamara_upgrade/advanced/backend/web/utisci/view'
+    'SCRIPT_NAME' => '/tamara_upgrade/advanced/backend/web/index.php'
+    'PHP_SELF' => '/tamara_upgrade/advanced/backend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1487935441.524
+    'REQUEST_TIME' => 1487935441
+]
+2017-02-24 11:24:29 [127.0.0.1][-][7okd7uf4no7csbj53254ojind2][error][yii\web\HttpException:400] yii\web\BadRequestHttpException: Missing required parameters: id in /home/mmauzerr/workspace/www/public_html/tamara_upgrade/advanced/vendor/yiisoft/yii2/web/Controller.php:149
+Stack trace:
+#0 /home/mmauzerr/workspace/www/public_html/tamara_upgrade/advanced/vendor/yiisoft/yii2/base/InlineAction.php(51): yii\web\Controller->bindActionParams(Object(yii\base\InlineAction), Array)
+#1 /home/mmauzerr/workspace/www/public_html/tamara_upgrade/advanced/vendor/yiisoft/yii2/base/Controller.php(156): yii\base\InlineAction->runWithParams(Array)
+#2 /home/mmauzerr/workspace/www/public_html/tamara_upgrade/advanced/vendor/yiisoft/yii2/base/Module.php(523): yii\base\Controller->runAction('view', Array)
+#3 /home/mmauzerr/workspace/www/public_html/tamara_upgrade/advanced/vendor/yiisoft/yii2/web/Application.php(102): yii\base\Module->runAction('utisci/view', Array)
+#4 /home/mmauzerr/workspace/www/public_html/tamara_upgrade/advanced/vendor/yiisoft/yii2/base/Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#5 /home/mmauzerr/workspace/www/public_html/tamara_upgrade/advanced/backend/web/index.php(17): yii\base\Application->run()
+#6 {main}
+2017-02-24 11:24:29 [127.0.0.1][-][7okd7uf4no7csbj53254ojind2][info][application] $_COOKIE = [
+    'advanced-frontend' => '9084d5u2rjeisd4v6adfnspsa2'
+    '_csrf-frontend' => '9e842be2ad729f5f4923d1b47fc6dbabf04986ed41df3f4e74b711049d29af85a:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"9xWIDQaiHJEUGXIS6Gv6ekyiqYCavaMK\";}'
+    'advanced-backend' => '7okd7uf4no7csbj53254ojind2'
+    '_csrf-backend' => '9d7fa94712e49ae7707219a10b62baa16c088e84fa8a0530aca70050104aad48a:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"snHYvOQMJPyWN2i6RNB5nhiCd4V769Rr\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => '/tamara_upgrade/advanced/backend/web/'
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => '127.0.0.1'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.8,sr;q=0.6'
+    'HTTP_COOKIE' => 'advanced-frontend=9084d5u2rjeisd4v6adfnspsa2; _csrf-frontend=9e842be2ad729f5f4923d1b47fc6dbabf04986ed41df3f4e74b711049d29af85a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%229xWIDQaiHJEUGXIS6Gv6ekyiqYCavaMK%22%3B%7D; advanced-backend=7okd7uf4no7csbj53254ojind2; _csrf-backend=9d7fa94712e49ae7707219a10b62baa16c088e84fa8a0530aca70050104aad48a%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22snHYvOQMJPyWN2i6RNB5nhiCd4V769Rr%22%3B%7D'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.18 (Ubuntu) Server at 127.0.0.1 Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Ubuntu)'
+    'SERVER_NAME' => '127.0.0.1'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/home/mmauzerr/workspace/www/public_html'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/home/mmauzerr/workspace/www/public_html'
+    'SERVER_ADMIN' => 'webmaster@localhost'
+    'SCRIPT_FILENAME' => '/home/mmauzerr/workspace/www/public_html/tamara_upgrade/advanced/backend/web/index.php'
+    'REMOTE_PORT' => '41888'
+    'REDIRECT_URL' => '/tamara_upgrade/advanced/backend/web/utisci/view'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/tamara_upgrade/advanced/backend/web/utisci/view'
+    'SCRIPT_NAME' => '/tamara_upgrade/advanced/backend/web/index.php'
+    'PHP_SELF' => '/tamara_upgrade/advanced/backend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1487935469.762
+    'REQUEST_TIME' => 1487935469
+]
+2017-02-24 11:38:56 [127.0.0.1][-][-][error][ParseError] ParseError: syntax error, unexpected ',' in /home/mmauzerr/workspace/www/public_html/tamara_upgrade/advanced/backend/views/layouts/main.php:46
+Stack trace:
+#0 /home/mmauzerr/workspace/www/public_html/tamara_upgrade/advanced/vendor/yiisoft/yii2/base/View.php(250): yii\base\View->renderPhpFile('/home/mmauzerr/...', Array)
+#1 /home/mmauzerr/workspace/www/public_html/tamara_upgrade/advanced/vendor/yiisoft/yii2/base/Controller.php(396): yii\base\View->renderFile('/home/mmauzerr/...', Array, Object(backend\controllers\UtisciController))
+#2 /home/mmauzerr/workspace/www/public_html/tamara_upgrade/advanced/vendor/yiisoft/yii2/base/Controller.php(382): yii\base\Controller->renderContent('<div class="uti...')
+#3 /home/mmauzerr/workspace/www/public_html/tamara_upgrade/advanced/backend/controllers/UtisciController.php(43): yii\base\Controller->render('index', Array)
+#4 [internal function]: backend\controllers\UtisciController->actionIndex()
+#5 /home/mmauzerr/workspace/www/public_html/tamara_upgrade/advanced/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array(Array, Array)
+#6 /home/mmauzerr/workspace/www/public_html/tamara_upgrade/advanced/vendor/yiisoft/yii2/base/Controller.php(156): yii\base\InlineAction->runWithParams(Array)
+#7 /home/mmauzerr/workspace/www/public_html/tamara_upgrade/advanced/vendor/yiisoft/yii2/base/Module.php(523): yii\base\Controller->runAction('index', Array)
+#8 /home/mmauzerr/workspace/www/public_html/tamara_upgrade/advanced/vendor/yiisoft/yii2/web/Application.php(102): yii\base\Module->runAction('utisci/index', Array)
+#9 /home/mmauzerr/workspace/www/public_html/tamara_upgrade/advanced/vendor/yiisoft/yii2/base/Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#10 /home/mmauzerr/workspace/www/public_html/tamara_upgrade/advanced/backend/web/index.php(17): yii\base\Application->run()
+#11 {main}
+2017-02-24 11:38:56 [127.0.0.1][-][-][info][application] $_COOKIE = [
+    'advanced-frontend' => '9084d5u2rjeisd4v6adfnspsa2'
+    '_csrf-frontend' => '9e842be2ad729f5f4923d1b47fc6dbabf04986ed41df3f4e74b711049d29af85a:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"9xWIDQaiHJEUGXIS6Gv6ekyiqYCavaMK\";}'
+    'advanced-backend' => '7okd7uf4no7csbj53254ojind2'
+    '_csrf-backend' => '9d7fa94712e49ae7707219a10b62baa16c088e84fa8a0530aca70050104aad48a:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"snHYvOQMJPyWN2i6RNB5nhiCd4V769Rr\";}'
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => '127.0.0.1'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.8,sr;q=0.6'
+    'HTTP_COOKIE' => 'advanced-frontend=9084d5u2rjeisd4v6adfnspsa2; _csrf-frontend=9e842be2ad729f5f4923d1b47fc6dbabf04986ed41df3f4e74b711049d29af85a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%229xWIDQaiHJEUGXIS6Gv6ekyiqYCavaMK%22%3B%7D; advanced-backend=7okd7uf4no7csbj53254ojind2; _csrf-backend=9d7fa94712e49ae7707219a10b62baa16c088e84fa8a0530aca70050104aad48a%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22snHYvOQMJPyWN2i6RNB5nhiCd4V769Rr%22%3B%7D'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.18 (Ubuntu) Server at 127.0.0.1 Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Ubuntu)'
+    'SERVER_NAME' => '127.0.0.1'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/home/mmauzerr/workspace/www/public_html'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/home/mmauzerr/workspace/www/public_html'
+    'SERVER_ADMIN' => 'webmaster@localhost'
+    'SCRIPT_FILENAME' => '/home/mmauzerr/workspace/www/public_html/tamara_upgrade/advanced/backend/web/index.php'
+    'REMOTE_PORT' => '42158'
+    'REDIRECT_URL' => '/tamara_upgrade/advanced/backend/web/utisci/index'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/tamara_upgrade/advanced/backend/web/utisci/index'
+    'SCRIPT_NAME' => '/tamara_upgrade/advanced/backend/web/index.php'
+    'PHP_SELF' => '/tamara_upgrade/advanced/backend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1487936336.214
+    'REQUEST_TIME' => 1487936336
+]
+2017-02-24 11:39:11 [127.0.0.1][-][-][error][ParseError] ParseError: syntax error, unexpected ',' in /home/mmauzerr/workspace/www/public_html/tamara_upgrade/advanced/backend/views/layouts/main.php:46
+Stack trace:
+#0 /home/mmauzerr/workspace/www/public_html/tamara_upgrade/advanced/vendor/yiisoft/yii2/base/View.php(250): yii\base\View->renderPhpFile('/home/mmauzerr/...', Array)
+#1 /home/mmauzerr/workspace/www/public_html/tamara_upgrade/advanced/vendor/yiisoft/yii2/base/Controller.php(396): yii\base\View->renderFile('/home/mmauzerr/...', Array, Object(backend\controllers\UtisciController))
+#2 /home/mmauzerr/workspace/www/public_html/tamara_upgrade/advanced/vendor/yiisoft/yii2/base/Controller.php(382): yii\base\Controller->renderContent('<div class="uti...')
+#3 /home/mmauzerr/workspace/www/public_html/tamara_upgrade/advanced/backend/controllers/UtisciController.php(43): yii\base\Controller->render('index', Array)
+#4 [internal function]: backend\controllers\UtisciController->actionIndex()
+#5 /home/mmauzerr/workspace/www/public_html/tamara_upgrade/advanced/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array(Array, Array)
+#6 /home/mmauzerr/workspace/www/public_html/tamara_upgrade/advanced/vendor/yiisoft/yii2/base/Controller.php(156): yii\base\InlineAction->runWithParams(Array)
+#7 /home/mmauzerr/workspace/www/public_html/tamara_upgrade/advanced/vendor/yiisoft/yii2/base/Module.php(523): yii\base\Controller->runAction('index', Array)
+#8 /home/mmauzerr/workspace/www/public_html/tamara_upgrade/advanced/vendor/yiisoft/yii2/web/Application.php(102): yii\base\Module->runAction('utisci/index', Array)
+#9 /home/mmauzerr/workspace/www/public_html/tamara_upgrade/advanced/vendor/yiisoft/yii2/base/Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#10 /home/mmauzerr/workspace/www/public_html/tamara_upgrade/advanced/backend/web/index.php(17): yii\base\Application->run()
+#11 {main}
+2017-02-24 11:39:11 [127.0.0.1][-][-][info][application] $_COOKIE = [
+    'advanced-frontend' => '9084d5u2rjeisd4v6adfnspsa2'
+    '_csrf-frontend' => '9e842be2ad729f5f4923d1b47fc6dbabf04986ed41df3f4e74b711049d29af85a:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"9xWIDQaiHJEUGXIS6Gv6ekyiqYCavaMK\";}'
+    'advanced-backend' => '7okd7uf4no7csbj53254ojind2'
+    '_csrf-backend' => '9d7fa94712e49ae7707219a10b62baa16c088e84fa8a0530aca70050104aad48a:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"snHYvOQMJPyWN2i6RNB5nhiCd4V769Rr\";}'
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => '127.0.0.1'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.8,sr;q=0.6'
+    'HTTP_COOKIE' => 'advanced-frontend=9084d5u2rjeisd4v6adfnspsa2; _csrf-frontend=9e842be2ad729f5f4923d1b47fc6dbabf04986ed41df3f4e74b711049d29af85a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%229xWIDQaiHJEUGXIS6Gv6ekyiqYCavaMK%22%3B%7D; advanced-backend=7okd7uf4no7csbj53254ojind2; _csrf-backend=9d7fa94712e49ae7707219a10b62baa16c088e84fa8a0530aca70050104aad48a%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22snHYvOQMJPyWN2i6RNB5nhiCd4V769Rr%22%3B%7D'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.18 (Ubuntu) Server at 127.0.0.1 Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Ubuntu)'
+    'SERVER_NAME' => '127.0.0.1'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/home/mmauzerr/workspace/www/public_html'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/home/mmauzerr/workspace/www/public_html'
+    'SERVER_ADMIN' => 'webmaster@localhost'
+    'SCRIPT_FILENAME' => '/home/mmauzerr/workspace/www/public_html/tamara_upgrade/advanced/backend/web/index.php'
+    'REMOTE_PORT' => '42162'
+    'REDIRECT_URL' => '/tamara_upgrade/advanced/backend/web/utisci/index'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/tamara_upgrade/advanced/backend/web/utisci/index'
+    'SCRIPT_NAME' => '/tamara_upgrade/advanced/backend/web/index.php'
+    'PHP_SELF' => '/tamara_upgrade/advanced/backend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1487936351.638
+    'REQUEST_TIME' => 1487936351
+]
+2017-02-24 11:40:24 [127.0.0.1][-][7okd7uf4no7csbj53254ojind2][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request "home/mmauzerr/workspace/www/public_html/tamara_upgrade/advanced/frontend/web". in /home/mmauzerr/workspace/www/public_html/tamara_upgrade/advanced/vendor/yiisoft/yii2/base/Module.php:532
+Stack trace:
+#0 /home/mmauzerr/workspace/www/public_html/tamara_upgrade/advanced/vendor/yiisoft/yii2/web/Application.php(102): yii\base\Module->runAction('home/mmauzerr/w...', Array)
+#1 /home/mmauzerr/workspace/www/public_html/tamara_upgrade/advanced/vendor/yiisoft/yii2/base/Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 /home/mmauzerr/workspace/www/public_html/tamara_upgrade/advanced/backend/web/index.php(17): yii\base\Application->run()
+#3 {main}
+
+Next yii\web\NotFoundHttpException: Page not found. in /home/mmauzerr/workspace/www/public_html/tamara_upgrade/advanced/vendor/yiisoft/yii2/web/Application.php:114
+Stack trace:
+#0 /home/mmauzerr/workspace/www/public_html/tamara_upgrade/advanced/vendor/yiisoft/yii2/base/Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 /home/mmauzerr/workspace/www/public_html/tamara_upgrade/advanced/backend/web/index.php(17): yii\base\Application->run()
+#2 {main}
+2017-02-24 11:40:24 [127.0.0.1][-][7okd7uf4no7csbj53254ojind2][info][application] $_COOKIE = [
+    'advanced-frontend' => '9084d5u2rjeisd4v6adfnspsa2'
+    '_csrf-frontend' => '9e842be2ad729f5f4923d1b47fc6dbabf04986ed41df3f4e74b711049d29af85a:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"9xWIDQaiHJEUGXIS6Gv6ekyiqYCavaMK\";}'
+    'advanced-backend' => '7okd7uf4no7csbj53254ojind2'
+    '_csrf-backend' => '9d7fa94712e49ae7707219a10b62baa16c088e84fa8a0530aca70050104aad48a:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"snHYvOQMJPyWN2i6RNB5nhiCd4V769Rr\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => '/tamara_upgrade/advanced/backend/web/'
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => '127.0.0.1'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://127.0.0.1/tamara_upgrade/advanced/backend/web/utisci/index'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.8,sr;q=0.6'
+    'HTTP_COOKIE' => 'advanced-frontend=9084d5u2rjeisd4v6adfnspsa2; _csrf-frontend=9e842be2ad729f5f4923d1b47fc6dbabf04986ed41df3f4e74b711049d29af85a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%229xWIDQaiHJEUGXIS6Gv6ekyiqYCavaMK%22%3B%7D; advanced-backend=7okd7uf4no7csbj53254ojind2; _csrf-backend=9d7fa94712e49ae7707219a10b62baa16c088e84fa8a0530aca70050104aad48a%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22snHYvOQMJPyWN2i6RNB5nhiCd4V769Rr%22%3B%7D'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.18 (Ubuntu) Server at 127.0.0.1 Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Ubuntu)'
+    'SERVER_NAME' => '127.0.0.1'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/home/mmauzerr/workspace/www/public_html'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/home/mmauzerr/workspace/www/public_html'
+    'SERVER_ADMIN' => 'webmaster@localhost'
+    'SCRIPT_FILENAME' => '/home/mmauzerr/workspace/www/public_html/tamara_upgrade/advanced/backend/web/index.php'
+    'REMOTE_PORT' => '42196'
+    'REDIRECT_URL' => '/tamara_upgrade/advanced/backend/web/home/mmauzerr/workspace/www/public_html/tamara_upgrade/advanced/frontend/web'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/tamara_upgrade/advanced/backend/web/home/mmauzerr/workspace/www/public_html/tamara_upgrade/advanced/frontend/web'
+    'SCRIPT_NAME' => '/tamara_upgrade/advanced/backend/web/index.php'
+    'PHP_SELF' => '/tamara_upgrade/advanced/backend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1487936424.898
+    'REQUEST_TIME' => 1487936424
+]
+2017-02-24 11:40:35 [127.0.0.1][-][7okd7uf4no7csbj53254ojind2][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request "home/mmauzerr/workspace/www/public_html/tamara_upgrade/advanced/frontend/web". in /home/mmauzerr/workspace/www/public_html/tamara_upgrade/advanced/vendor/yiisoft/yii2/base/Module.php:532
+Stack trace:
+#0 /home/mmauzerr/workspace/www/public_html/tamara_upgrade/advanced/vendor/yiisoft/yii2/web/Application.php(102): yii\base\Module->runAction('home/mmauzerr/w...', Array)
+#1 /home/mmauzerr/workspace/www/public_html/tamara_upgrade/advanced/vendor/yiisoft/yii2/base/Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 /home/mmauzerr/workspace/www/public_html/tamara_upgrade/advanced/backend/web/index.php(17): yii\base\Application->run()
+#3 {main}
+
+Next yii\web\NotFoundHttpException: Page not found. in /home/mmauzerr/workspace/www/public_html/tamara_upgrade/advanced/vendor/yiisoft/yii2/web/Application.php:114
+Stack trace:
+#0 /home/mmauzerr/workspace/www/public_html/tamara_upgrade/advanced/vendor/yiisoft/yii2/base/Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 /home/mmauzerr/workspace/www/public_html/tamara_upgrade/advanced/backend/web/index.php(17): yii\base\Application->run()
+#2 {main}
+2017-02-24 11:40:35 [127.0.0.1][-][7okd7uf4no7csbj53254ojind2][info][application] $_COOKIE = [
+    'advanced-frontend' => '9084d5u2rjeisd4v6adfnspsa2'
+    '_csrf-frontend' => '9e842be2ad729f5f4923d1b47fc6dbabf04986ed41df3f4e74b711049d29af85a:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"9xWIDQaiHJEUGXIS6Gv6ekyiqYCavaMK\";}'
+    'advanced-backend' => '7okd7uf4no7csbj53254ojind2'
+    '_csrf-backend' => '9d7fa94712e49ae7707219a10b62baa16c088e84fa8a0530aca70050104aad48a:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"snHYvOQMJPyWN2i6RNB5nhiCd4V769Rr\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => '/tamara_upgrade/advanced/backend/web/'
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => '127.0.0.1'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://127.0.0.1/tamara_upgrade/advanced/backend/web/utisci/index'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.8,sr;q=0.6'
+    'HTTP_COOKIE' => 'advanced-frontend=9084d5u2rjeisd4v6adfnspsa2; _csrf-frontend=9e842be2ad729f5f4923d1b47fc6dbabf04986ed41df3f4e74b711049d29af85a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%229xWIDQaiHJEUGXIS6Gv6ekyiqYCavaMK%22%3B%7D; advanced-backend=7okd7uf4no7csbj53254ojind2; _csrf-backend=9d7fa94712e49ae7707219a10b62baa16c088e84fa8a0530aca70050104aad48a%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22snHYvOQMJPyWN2i6RNB5nhiCd4V769Rr%22%3B%7D'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.18 (Ubuntu) Server at 127.0.0.1 Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Ubuntu)'
+    'SERVER_NAME' => '127.0.0.1'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/home/mmauzerr/workspace/www/public_html'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/home/mmauzerr/workspace/www/public_html'
+    'SERVER_ADMIN' => 'webmaster@localhost'
+    'SCRIPT_FILENAME' => '/home/mmauzerr/workspace/www/public_html/tamara_upgrade/advanced/backend/web/index.php'
+    'REMOTE_PORT' => '42208'
+    'REDIRECT_URL' => '/tamara_upgrade/advanced/backend/web/home/mmauzerr/workspace/www/public_html/tamara_upgrade/advanced/frontend/web'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/tamara_upgrade/advanced/backend/web/home/mmauzerr/workspace/www/public_html/tamara_upgrade/advanced/frontend/web'
+    'SCRIPT_NAME' => '/tamara_upgrade/advanced/backend/web/index.php'
+    'PHP_SELF' => '/tamara_upgrade/advanced/backend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1487936435.345
+    'REQUEST_TIME' => 1487936435
+]
+2017-03-09 21:35:39 [127.0.0.1][-][nevg1kagj8mjntrdmv8uh9v7d4][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request "site/login/gii". in /home/mmauzerr/workspace/www/public_html/tamara_upgrade/advanced/vendor/yiisoft/yii2/base/Module.php:532
+Stack trace:
+#0 /home/mmauzerr/workspace/www/public_html/tamara_upgrade/advanced/vendor/yiisoft/yii2/web/Application.php(102): yii\base\Module->runAction('site/login/gii', Array)
+#1 /home/mmauzerr/workspace/www/public_html/tamara_upgrade/advanced/vendor/yiisoft/yii2/base/Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 /home/mmauzerr/workspace/www/public_html/tamara_upgrade/advanced/backend/web/index.php(17): yii\base\Application->run()
+#3 {main}
+
+Next yii\web\NotFoundHttpException: Page not found. in /home/mmauzerr/workspace/www/public_html/tamara_upgrade/advanced/vendor/yiisoft/yii2/web/Application.php:114
+Stack trace:
+#0 /home/mmauzerr/workspace/www/public_html/tamara_upgrade/advanced/vendor/yiisoft/yii2/base/Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 /home/mmauzerr/workspace/www/public_html/tamara_upgrade/advanced/backend/web/index.php(17): yii\base\Application->run()
+#2 {main}
+2017-03-09 21:35:39 [127.0.0.1][-][nevg1kagj8mjntrdmv8uh9v7d4][info][application] $_COOKIE = [
+    'advanced-frontend' => 'ot9gcjmhq7ss2ujr94ra3me074'
+    '_csrf-frontend' => 'fc1e22c8c40c800b49946b11515f5993a040e0a36ff0b699d9c352d46cba3928a:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"IQgXdoTAcB4HZiU-t2BBzELQy_qYpuPj\";}'
+    'advanced-backend' => 'nevg1kagj8mjntrdmv8uh9v7d4'
+    '_csrf-backend' => 'edd9bbe628d99132c31f03eb44dbe06024fb4aa84dbb21f4882f86e958f920aca:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"cJA1dy52vQd6WhsPWcUzX98jn9lEkcZ0\";}'
+    'PHPSESSID' => '9q5slbdlh6bi5uvv9topbvqlm0'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => '/tamara_upgrade/advanced/backend/web/'
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => '127.0.0.1'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.8,sr;q=0.6'
+    'HTTP_COOKIE' => 'advanced-frontend=ot9gcjmhq7ss2ujr94ra3me074; _csrf-frontend=fc1e22c8c40c800b49946b11515f5993a040e0a36ff0b699d9c352d46cba3928a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22IQgXdoTAcB4HZiU-t2BBzELQy_qYpuPj%22%3B%7D; advanced-backend=nevg1kagj8mjntrdmv8uh9v7d4; _csrf-backend=edd9bbe628d99132c31f03eb44dbe06024fb4aa84dbb21f4882f86e958f920aca%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22cJA1dy52vQd6WhsPWcUzX98jn9lEkcZ0%22%3B%7D; PHPSESSID=9q5slbdlh6bi5uvv9topbvqlm0'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.18 (Ubuntu) Server at 127.0.0.1 Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Ubuntu)'
+    'SERVER_NAME' => '127.0.0.1'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/home/mmauzerr/workspace/www/public_html'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/home/mmauzerr/workspace/www/public_html'
+    'SERVER_ADMIN' => 'webmaster@localhost'
+    'SCRIPT_FILENAME' => '/home/mmauzerr/workspace/www/public_html/tamara_upgrade/advanced/backend/web/index.php'
+    'REMOTE_PORT' => '54938'
+    'REDIRECT_URL' => '/tamara_upgrade/advanced/backend/web/site/login/gii'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/tamara_upgrade/advanced/backend/web/site/login/gii'
+    'SCRIPT_NAME' => '/tamara_upgrade/advanced/backend/web/index.php'
+    'PHP_SELF' => '/tamara_upgrade/advanced/backend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1489095339.514
+    'REQUEST_TIME' => 1489095339
+]

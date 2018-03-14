@@ -1,2 +1,2 @@
 # avanturakampura_upgrade
-Static website : avanturakampura.rs upgraded in yii2-advance webapp
+Static website : www.avanturakampura.rs upgraded in yii2-advance webapp
